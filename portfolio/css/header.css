@@ -1,0 +1,61 @@
+header {
+    margin-left: 180px;
+    margin-top: 24px;
+    width: 1170px;
+}
+
+.logo {
+    left: 5.21%;
+    right: 89.17%;
+    top: 0.33%;
+    bottom: 99.06%;
+
+    font-family: 'Whisper', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+    color: #fff;
+}
+
+.navbar ul li {
+    list-style: none;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: #ABAEB7;
+}
+
+.navbar ul li a:hover {
+    color: #FFC978;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .links {
+    display: flex;
+    gap: 2rem;
+}
+
+.sign-in {
+    position: relative;
+    color: #ABAEB7;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ABAEB7;
+    border-radius: 28px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sign-in:hover {
+    background-color: #ffffff2b;
+    color: #fff;
+
+}
