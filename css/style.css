@@ -1,0 +1,401 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Styles */
+body {
+    background: #0b0e17;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    width: 100%;
+}
+
+/* Top container */
+
+.top-box {
+    position: relative;
+}
+
+.top-container {
+    display: flex;
+}
+
+.path {
+    position: absolute;
+    width: 1000px;
+    height: 520px;
+
+}
+
+
+.branch {
+    font-family: 'Larken-Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.3em;
+
+    color: #FFC978;
+}
+
+.content {
+    position: absolute;
+    width: 300px;
+    margin-left: 220px;
+    margin-top: 120px;
+
+}
+
+.pic {
+    height: 500px;
+    margin-top: 25px;
+    margin-left: 970px;
+    border-radius: 100% 100% 100% 30% / 29% 25% 100% 100%;
+}
+
+p {
+    color: #fff;
+}
+
+h2 {
+    color: #fff;
+
+    font-family: 'Larken-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 84px;
+    line-height: 94px;
+
+    text-transform: uppercase;
+}
+
+/* Wrapper */
+
+.wrapper {
+    display: flex;
+    width: 505px;
+}
+
+.wrapper .static-txt {
+    font-family: 'Larken-Regular';
+    color: #fff;
+    margin-top: 16px;
+    font-size: 45px;
+}
+
+.wrapper .dynamic-txts {
+    margin-left: 15px;
+    height: 80px;
+    overflow: hidden;
+}
+
+.dynamic-txts li {
+    list-style: none;
+    color: #FC6D6D;
+    font-size: 35px;
+    font-weight: 400;
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(4) infinite;
+}
+
+@keyframes slide {
+    100% {
+        top: -360px;
+    }
+}
+
+.dynamic-txts li span {
+    position: relative;
+    margin: 5px 0;
+    line-height: 90px;
+}
+
+.dynamic-txts li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    margin-top: 24px;
+    height: 43px;
+    width: 100%;
+    background: #0b0e17;
+    border-left: 2px solid #FC6D6D;
+    animation: typing 3s steps(10) infinite;
+}
+
+@keyframes typing {
+
+    40%,
+    60% {
+        left: calc(100% + 30px);
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+/* About Section */
+
+.path2 {
+    position: absolute;
+    width: 655px;
+    height: 400px;
+    top: 1005px;
+}
+
+.d-resume {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 565px;
+    top: 1280px;
+    cursor: pointer;
+}
+
+.download-btn {
+    position: absolute;
+    color: #e0eced;
+    top: 1330px;
+    left: 622px;
+    font-size: 2.5rem;
+    border-radius: 5px;
+}
+
+.download-btn:hover {
+    position: absolute;
+    color: #fff;
+    top: 1327px;
+    left: 615px;
+    font-size: 3.5rem;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+
+.content-box {
+    margin-top: 117px;
+}
+
+.about-text {
+    margin-left: 16.41%;
+    margin-top: 50px;
+
+    font-family: 'Larken-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 77px;
+}
+
+.about {
+    display: flex;
+}
+
+.rectangle {
+    width: 2px;
+    height: 245px;
+    margin-left: 295px;
+
+    background: linear-gradient(180deg, rgba(197, 225, 228, 0) 0%, #C5E1E4 51.56%, rgba(197, 225, 228, 0) 100%);
+}
+
+.about-content {
+    width: 610px;
+    height: 104px;
+    margin-left: 35px;
+    margin-top: 27px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #ABAEB7;
+}
+
+.Me {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    left: 775px;
+    top: 1037px;
+}
+
+.Me2 {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    left: 1105px;
+    top: 870px;
+}
+
+.college {
+    position: absolute;
+    width: 408px;
+    height: 175px;
+    left: 105px;
+    top: 1260px;
+}
+
+.hackno {
+    position: absolute;
+    left: 6.1%;
+    top: 1100px;
+    bottom: 69.97%;
+
+    font-family: 'Larken-Regular';
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 164px;
+}
+
+.hackathon {
+    position: absolute;
+    width: 78px;
+    height: 60px;
+    left: 351px;
+    top: 1180px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/* Portfolio Section */
+
+h3 {
+    position: absolute;
+    left: 44%;
+    top: 1565px;
+
+    font-family: 'Larken-Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.3em;
+
+    color: #FFC978;
+}
+
+.project-c {
+    position: absolute;
+    left: 36%;
+    top: 1585px;
+    bottom: 83.8%;
+
+
+    font-family: 'Larken-Regular';
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 77px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+/* Skills Section */
+
+.skill-box {
+    position: absolute;
+    width: 1519px;
+    height: 500px;
+    top: 2290px;
+
+    background: #1A1D26;
+}
+
+.skill {
+    position: absolute;
+    width: 450px;
+    height: 400px;
+    margin-top: 80px;
+    left: 20px;
+}
+
+.skill-h {
+    position: absolute;
+    margin-top: 50px;
+    left: 35%;
+}
+
+.skil {
+    position: absolute;
+    left: 35%;
+    margin-top: 200px;
+}
+
+.skil li {
+    color: #FFAF76;
+    list-style: none;
+
+    font-size: 40px;
+
+}
+
+.skil-2 {
+    position: absolute;
+    left: 50%;
+    margin-top: 200px;
+}
+
+.skil-2 li {
+    color: #FFAF76;
+    list-style: none;
+
+    font-size: 40px;
+
+}
+
+
+.letter {
+    position: absolute;
+    left: 960px;
+    width: 550px;
+    height: 500px;
+}
+
+/* Footer */
+
+.box {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 3500px;
+
+    background: #2E313A;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.footer {
+    position: absolute;
+    width: 300px;
+    height: 22px;
+    left: 44.5%;
+    top: 3520px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+
+    color: #ABAEB7;
+}
+
+.name {
+    color: #FFB077;
+}
