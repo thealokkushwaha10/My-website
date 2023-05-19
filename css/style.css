@@ -271,7 +271,7 @@ h2 {
 
 h3 {
     position: absolute;
-    left: 44%;
+    left: 672px;
     top: 1565px;
 
     font-family: 'Larken-Medium';
@@ -289,7 +289,7 @@ h3 {
 
 .project-c {
     position: absolute;
-    left: 36%;
+    left: 542px;
     top: 1585px;
     bottom: 83.8%;
 
@@ -382,7 +382,7 @@ h3 {
     position: absolute;
     width: 300px;
     height: 22px;
-    left: 44.5%;
+    left: 44%;
     top: 3520px;
 
     font-family: 'Roboto';
@@ -398,4 +398,10 @@ h3 {
 
 .name {
     color: #FFB077;
+}
+
+.hacktext {
+    position: absolute;
+    top: 2875px;
+    left: 475px;
 }
